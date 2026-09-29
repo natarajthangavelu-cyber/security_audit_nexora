@@ -1,0 +1,10 @@
+ID,Action,Owner,Start,Due,Status,Evidence of closure,Verified by,Verified date
+F-05,Enable S3 Block Public Access; enable CloudTrail data events; start CERT-In assessment,Cloud Lead,2026-09-29,2026-09-30,Not started,,,
+F-01,Apply log4j2.formatMsgNoLookups; upgrade to 2.17.1+; restrict egress,App Owner,2026-09-29,2026-10-02,Not started,,,
+F-02,Isolate fs-legacy-01; disable SMBv1; migrate shares,Infra Lead,2026-09-29,2026-11-13,Not started,,,
+F-03,Conditional Access MFA for all; FIDO2 for admins; VPN SAML+MFA,IAM Lead,2026-10-01,2026-10-29,Not started,,,
+F-06,Parameterised queries; least-privilege DB user; WAF rule,Dev Lead,2026-10-01,2026-10-29,Not started,,,
+F-04,Cut Domain Admins to <=5; gMSA; LAPS,AD Admin,2026-10-15,2026-11-30,Not started,,,
+F-07,Hardened repo + S3 Object Lock; encryption; restore test,Backup Admin,2026-10-15,2026-11-30,Not started,,,
+F-08,Deploy SIEM; Sysmon; detections; 180-day retention,SOC/IT Sec,2026-10-15,2026-12-28,Not started,,,
+F-11,DMARC enforcement; phishing programme; Safe Links,HR + Sec Awareness,2026-10-15,2026-12-28,Not started,,,
