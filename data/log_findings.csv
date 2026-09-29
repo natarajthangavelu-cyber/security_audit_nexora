@@ -1,0 +1,5 @@
+source_ip,failed_logins,distinct_users,first_seen,last_seen,verdict,successful_after_failures,accounts_compromised
+185.220.101.34,300,94,2026-09-14 01:00:03,2026-09-14 03:46:38,Password spray,1,user13@nexora.example
+45.155.205.88,240,76,2026-09-15 22:00:02,2026-09-16 00:45:22,Password spray,1,user48@nexora.example
+103.77.192.19,150,59,2026-09-16 03:00:29,2026-09-16 05:42:47,Password spray,1,user61@nexora.example
+198.51.100.23,40,1,2026-09-17 04:00:06,2026-09-17 06:44:21,Brute force,0,
