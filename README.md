@@ -27,5 +27,3 @@ Requires Python 3.8+ and no third-party packages.
 ## Standards used
 ISO/IEC 27001:2022, NIST CSF 2.0, CIS Controls v8, NIST SP 800-115 / 800-30, OWASP Top 10, MITRE ATT&CK, CVSS v3.1, CERT-In Directions, DPDP Act 2023.
 
-## Author
-Your Name – Cyber Security Course, Week 5 Final Task
