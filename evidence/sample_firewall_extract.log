@@ -1,0 +1,5 @@
+# SIMULATED FortiGate traffic extract (fictitious) - supports findings F-01, F-02, F-09
+date=2026-09-16 time=02:14:07 devname=FGT-HQ srcip=10.20.5.14 dstip=203.0.113.50 dstport=389 proto=6 action=accept policy=ANY-ANY msg="Outbound LDAP from app-srv-04 (JNDI callback test)"
+date=2026-09-16 time=09:41:22 devname=FGT-HQ srcip=10.20.44.61 dstip=10.20.2.11 dstport=445 proto=6 action=accept policy=LAN-FLAT msg="User workstation to legacy SMB server"
+date=2026-09-16 time=09:41:25 devname=FGT-HQ srcip=10.20.44.61 dstip=10.20.9.5 dstport=445 proto=6 action=accept policy=LAN-FLAT msg="User workstation to backup NAS (should be blocked)"
+date=2026-09-17 time=03:02:10 devname=FGT-HQ srcip=185.220.101.34 dstip=198.51.100.10 dstport=443 proto=6 action=accept policy=SSLVPN-PORTAL msg="SSL-VPN login, no 2FA"
