@@ -1,0 +1,15 @@
+ID,Finding,Asset,Likelihood,Impact,Score,Rating,CVSS,Owner,Priority,Target,Status
+F-01,Unpatched Log4j (CVE-2021-44228) on Loan Portal API,app-srv-04,4,5,20,Critical,10.0,App Owner,P1,3 days,Open
+F-02,EOL Windows Server 2008 R2 with SMBv1 (MS17-010),fs-legacy-01,4,5,20,Critical,9.8,Infra Lead,P1,45 days,Open
+F-03,MFA not enforced for VPN and privileged accounts,FortiGate/Entra ID,4,4,16,High,8.1,IAM Lead,P1,30 days,Open
+F-04,Excessive privileged and Kerberoastable AD accounts,Active Directory,3,5,15,High,8.8,AD Admin,P2,60 days,Open
+F-05,Public S3 bucket with KYC documents,nexora-kyc-archive-prod,4,5,20,Critical,9.1,Cloud Lead,P1,1 day,Open
+F-06,SQL injection in loan-calculator search,loans.nexora.example,3,5,15,High,8.6,Dev Lead,P2,30 days,Open
+F-07,Backups unencrypted / reachable / untested,Veeam + NAS,3,5,15,High,7.8,Backup Admin,P2,60 days,Open
+F-08,Insufficient logging and monitoring,DCs / firewalls / servers,4,3,12,High,6.5,SOC/IT Sec,P2,90 days,Open
+F-09,Flat network no segmentation,HQ LAN,3,4,12,High,7.5,Network Lead,P3,120 days,Open
+F-10,Weak TLS on legacy HR portal,hr.nexora.example,3,3,9,Medium,5.9,Web Admin,P3,30 days,Open
+F-11,High phishing susceptibility,All staff,4,3,12,High,6.1,HR + Sec Awareness,P2,90 days,Open
+F-12,Outdated IR plan / no third-party risk mgmt,Governance,3,3,9,Medium,5.8,GRC Lead,P3,120 days,Open
+F-13,Default credentials on IoT and shared Wi-Fi PSK,Cameras/printers/Wi-Fi,2,2,4,Low,4.3,Facilities/IT,P4,180 days,Open
+F-14,Unsanctioned public GenAI use,Proxy/endpoints,3,3,9,Medium,5.5,CISO/Legal,P3,90 days,Open
